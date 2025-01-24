@@ -1,0 +1,10 @@
+Idea: Bedtime story company - Company that you call who reads you a bedtime story if you can't fall asleep
+
+Name Idea: Sueños
+HTML entity for ñ: &ntilde;
+
+Colors:
+- #8acfc5
+
+Phone made on:
+ - https://mockflow.com/app/#Wireframe

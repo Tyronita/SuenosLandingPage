@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Lacquer|Open+Sans|Playfair+Display|Poppins|Saira+Semi+Condensed&display=swap');
+
+/* 
+    font-family: 'Fira Sans', ;
+    font-family: 'Lacquer', ;
+    font-family: 'Open Sans', ;
+    font-family: 'Playfair Display', ;
+    font-family: 'Saira Semi Condensed', ;
+    font-family: 'Poppins', ;
+
+    AE81FF
+*/
+
+:root {
+    --horizontal-spacing: 8vw;
+}
+
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.go-down {
+    position: relative;
+    top: 5px;
+}
+
+.go-up {
+    position: relative;
+    bottom: 15px;
+}
+
+/*  
+    --------------------
+    Header Styling 
+    -------------------- 
+*/
+
+.header-container {
+    display: fixed;
+    border-bottom: 1px #333 solid;
+}
+
+.header-container > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 var(--horizontal-spacing);
+}
+
+/* Navigation Bar Styling */
+.navigation-bar {
+    margin-right: 1vw;
+}
+
+/* Navigation Bar Items */
+.navigation-bar > ul > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Text of Navigation Bar Items */
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    background: linear-gradient(to right, rgb(130, 39, 214), rgb(69, 0, 149));
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+/*  
+    --------------------
+    Main Content Styling 
+    -------------------- 
+*/
+
+/* Cover Image Header */
+
+.cover-image {
+    height: 41vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('images/insomnia-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+}
+
+.cover-image > div {
+    width: 50vw;
+    color: #fff;
+    text-shadow: 2px 1px 3px #000;
+    line-height: 1.8;
+    letter-spacing: 0.9px;
+    margin: var(--horizontal-spacing);
+}
+
+/* Features */
+
+#The-Features {
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#The-Features header {
+    text-align: center;
+    padding: 3em var(--horizontal-spacing) ;
+}
+
+#The-Features header p {
+    color: blueviolet;
+}
+
+.features {
+    margin: 1em var(--horizontal-spacing);
+    display: flex;
+    justify-content: center;
+}
+
+.features-column {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    width: 20%;
+}
+
+.features-column > div {
+    height: 160px;
+    margin: 1em 0;
+    box-sizing: border-box;
+}
+
+.features-column h3 {
+    color: rgb(44, 44, 44);
+}
+
+.features-column p {
+    color: rgb(121, 121, 121);
+}
+
+.phone-image {
+    margin: 0 3em;
+    width: 350px;
+    padding: 0 1em;
+    height: 680x;
+}
+
+/* Storytelling Section*/
+
+.content-container {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.content-container section {
+    padding: 0 5%;
+    margin: 0 var(--horizontal-spacing);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.content-container img {
+    width: 37%;
+    margin: 0 5vw;
+    border-radius: 3px 3px;
+    box-shadow: 2px 5px 5px #333;
+    margin-bottom: 10px;
+}
+
+.content-container h1 {
+    font-size: 2.4em;
+    margin-bottom: 1.7rem;
+}
+
+.content-container p {
+    line-height: 1.8;
+    font-size: 1.2em;
+    margin-bottom: 1.4em;
+    
+}
+
+.voices {
+    color: rgb(250, 236, 255);
+    background: linear-gradient(to bottom, #235cfd, #2f45d8, #302fb5, #2c1993, #3206aa);
+}
+
+.fa-award{
+    color: khaki;
+}
+
+.purple-bg, .writing {
+    background-color: #460553;
+}
+
+.vision {
+    text-align: right;
+    position: relative;
+    bottom: 5px;
+    color: rgb(230, 230, 230);
+    text-shadow: 2px 2px rgb(41, 41, 41);
+    background: linear-gradient(to bottom, #460553, #440654, #4f0565, #580676, #610789);
+}
+
+.vision h1 {
+    color: rgb(253, 253, 237);
+}
+
+/* Our Team */
+
+#Our-Team {
+    padding-bottom: 4em;
+}
+
+#Our-Team > h1 {
+    font-size: 3em;
+    margin: 12px auto;
+    text-align: center;
+    font-weight: 200;
+    background-image: linear-gradient(to right, rgb(12, 12, 51), blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underline  {
+    width: 95px;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(12, 12, 75), blueviolet);
+    margin: auto;
+    position: relative;
+    right: 116px;
+    margin-bottom: 2.5em;
+}
+
+#team-tiles {
+    display: flex;
+    justify-content: center;
+}
+
+/* Profile Circles */
+
+.team-member-circle {
+    margin: 1em;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all 200ms;
+    box-sizing: border-box;
+}
+
+.team-member-circle:hover {
+    box-shadow: 0px 0px 10px #BA6BFF;
+}
+
+.active-member {
+    box-shadow: 3px 3px 8px skyblue, -3px -3px 8px skyblue;
+}
+
+/* Selcted Member Bio */
+
+.active-member-information {
+    display: flex;
+    align-items: center;
+    margin: 2vw var(--horizontal-spacing);
+}
+
+.active-member-bio {
+    margin-left: 2vw;
+    margin-right: 3vw;
+    line-height: 1.8;
+}
+
+.active-member-bio > h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#Team-Member-Portrait {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 3em;
+    margin-right: 3em;
+    box-shadow: 0 0 10px #333;
+}
+
+/* Review Section */
+
+#User-Reviews {
+    background-color: #eee;
+    padding: 3em 0;
+}
+
+#User-Reviews > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.review-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review-card {
+    width: 220px;
+    padding: 2em 1.8em;
+    margin: 1em;
+    background-color: #fff;
+}
+
+.testimonial {
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(12, 12, 51);
+}
+
+.testimonial img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* Download today */
+
+.download-today {
+    background-image: url('images/stary-sky.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.download-today > div {
+    height: 456px;
+    padding: 0 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-today h1{
+    font-size: 46px;
+    color: white;
+    font-weight: 10;
+    margin:0  1em;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.8;
+    background: -webkit-linear-gradient(lightblue, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.download-today img {
+    width: 330px;
+    cursor: pointer;
+}
+/*  
+    ---------------
+    Footer Styling 
+    ---------------
+*/
+footer {
+    font-family: 'Poppins', sans-serif;
+    
+}
+footer {
+    background: #1a1a1a;
+    height: 100%;
+    padding: 10vh 15vw 7vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-navigation > ul {
+    margin: 0 2vw;
+    display: inline;
+}
+
+.footer-navigation > ul > li {
+    list-style: none;
+    font-weight: 100;
+    text-shadow: 1px 1px 10px #333;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer-navigation h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.footer-navigation > ul li {
+    color: #c7c7c7;
+    font-size: 10pt;
+}
+
+.footer-navigation > ul li:hover {
+    color: lightgreen;
+}
+
+/* Footer Logo */
+#footer-logo-img {
+    width: 160px;
+    height: 110px;
+    object-fit: cover;
+}
+
+/* Social Section Styling */
+
+.social-container > ul {
+    margin: 0;
+    padding: 0 5px;
+}
+
+.social-container > ul > li {
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+    padding: 5px 8px;
+    font-size: 1.5em;
+    color: #eee;
+    position: relative;
+    right: 7px;
+}
+
+
+/* Copyright Container */
+
+.copyright-container {
+    color:#eee;
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 11pt;
+}
